@@ -1,4 +1,4 @@
-{ "Modelos":
+{"Modelos": {
 "TRABAJO": [
 
 {"modelo":"AT110", "coloresDisponibles": ["Azul", "Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 107, "velocidadMaxima": 77, "capacidadDeCombustible": 14},
@@ -7,7 +7,7 @@
 
 {"modelo":"FT 150 G", "coloresDisponibles": ["Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149 , "velocidadMaxima": 90, "capacidadDeCombustible": 14 },
 
-{"modelo":"125FL", "Colores disponibles": ["Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 125 , "velocidadMaxima": 85, "capacidadDeCombustible": 14}
+{"modelo":"125FL", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 125 , "velocidadMaxima": 85, "capacidadDeCombustible": 14}
 
 
 ],
@@ -23,15 +23,15 @@
 
 
 ],
-"LÍNEA Z": [
+"LINEA_Z": [
 
 {"modelo":"250 SZ", "coloresDisponibles": ["Amarillo"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 223 , "velocidadMaxima": 120, "capacidadDeCombustible": 12 },
 
 {"modelo":"150 Z", "coloresDisponibles": ["Negro", "Amarillo"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 150.06 , "velocidadMaxima": 90, "capacidadDeCombustible": 17 },
 
-{"modelo":"200Z", "coloresDisponibles": ["Rojo","Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro"", "cilindrada": 196, "velocidadMaxima": 110, "capacidadDeCombustible": 17 },
+{"modelo":"200Z", "coloresDisponibles": ["Rojo","Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 196, "velocidadMaxima": 110, "capacidadDeCombustible": 17 },
 
-{"modelo":"250 Z", "coloresDisponibles": ["Negro], "tipoDeMotor": "4 Tiempos, monocilíndrico OHC", "cilindrada": 196, "velocidadMaxima": 110, "capacidadDeCombustible": 17 }
+{"modelo":"250 Z", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico OHC", "cilindrada": 196, "velocidadMaxima": 110, "capacidadDeCombustible": 17 }
 
 
 ],
@@ -44,7 +44,7 @@
 
 ],
 
-"DOBLE PROPÓSITO": [
+"DOBLE_PROPOSITO": [
 
 {"modelo":"DM 150", "coloresDisponibles": ["Gris", "Azul"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149 , "velocidadMaxima": 90, "capacidadDeCombustible": 11},
 
@@ -58,7 +58,7 @@
 ],
 "CUATRIMOTO": [
 
-{"modelo":"ATV150", "coloresDisponibles": ["Negro", "Verde"], "tipoDeMotor: "4 Tiempos, monocilíndrico", "cilindrada": 149.6, "velocidadMaxima": 45, "capacidadDeCombustible": 7.5},
+{"modelo":"ATV150", "coloresDisponibles": ["Negro", "Verde"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149.6, "velocidadMaxima": 45, "capacidadDeCombustible": 7.5},
 
 {"modelo":"ATV 180", "coloresDisponibles": ["Negro", "Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 177.3, "velocidadMaxima": 65, "capacidadDeCombustible": 7.5},
 
@@ -88,7 +88,7 @@
 
 
 ],
-"VORT X": [
+"VORT_X": [
 
 {"modelo":"VORT-X250", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, Monocilindrico OHC", "cilindrada": 250, "velocidadMaxima": 135, "capacidadDeCombustible": 15},
 
@@ -98,7 +98,7 @@
 
 
 ],
-"CAFE RACER": [
+"CAFE_RACER": [
 
 {"modelo":"BLACKBIRD", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 135, "capacidadDeCombustible": 14},
 
@@ -116,23 +116,22 @@
 
 {"modelo":"VOLTIUM GRAVITY", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 65, "capacidadDeCombustible": 0},
 
-{"modelo":"VOLTIUM GRAVITY CITIO", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 65, "capacidadDeCombustible": 0},
+{"modelo":"VOLTIUM GRAVITY CITIO", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 65, "capacidadDeCombustible": 0}
 
 
 ],
 "CROSSOVER": [
 
-{"modelo":"BIT150", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149.6, "velocidadMaxima": 90, "capacidadDeCombustible": 3.7},
+{"modelo":"BIT150", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149.6, "velocidadMaxima": 90, "capacidadDeCombustible": 3.7}
 
 
 ],
 
 "TRIMOTO": [
 
-{"modelo":"TITAN", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 válvulas DOHC", "cilindrada": 229.2, "velocidadMaxima": 60, "capacidadDeCombustible": 15},
-
+{"modelo":"TITAN", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 válvulas DOHC", "cilindrada": 229.2, "velocidadMaxima": 60, "capacidadDeCombustible": 15}
 
 ]
-
+}
 }
 

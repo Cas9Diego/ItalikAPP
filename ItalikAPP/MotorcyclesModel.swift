@@ -7,21 +7,31 @@
 
 import Foundation
 
-struct MotorCyclesModel: Codable {
-    
-    let Models: [Model]
-    
+// MARK: - Welcome
+struct MotorcyclesModel: Codable {
+    let modelos: [String: [Modelo]]
+
+    enum CodingKeys: String, CodingKey {
+        case modelos = "Modelos"
+    }
 }
 
-struct Model: Codable {
-    
+// MARK: - Modelo
+struct Modelo: Codable {
     let modelo: String
-    let coloresDisponibles: [String]
+    let coloresDisponibles: [ColoresDisponible]
     let tipoDeMotor: String
-    let cilindrada: Int
-    let velocidadMaxima: Double
+    let cilindrada: Double
+    let velocidadMaxima: Int
     let capacidadDeCombustible: Double
-    
 }
 
-
+enum ColoresDisponible: String, Codable {
+    case amarillo = "Amarillo"
+    case azul = "Azul"
+    case blanco = "Blanco"
+    case gris = "Gris"
+    case negro = "Negro"
+    case rojo = "Rojo"
+    case verde = "Verde"
+}
