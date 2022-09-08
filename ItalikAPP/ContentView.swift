@@ -27,7 +27,7 @@ struct ContentView: View {
                             .padding(.horizontal)
                             .shadow(color: .gray, radius: 2, x: 0, y: 0)
                         
-                        TextField("Busca una motocicleta", text: $VModel.userInput)
+                        TextField("Busca un modelo o categoria", text: $VModel.userInput)
                             .onChange(of: VModel.userInput) { _ in
                                 VModel.userSearch()
                             }
@@ -108,13 +108,13 @@ struct ContentView: View {
                     NavigationLink {
                         CartView(VModel: VModel)
                     } label: {
-                        if VModel.cartState {
+                        if VModel.objectsInCart.isEmpty {
                             withAnimation {
-                                Image(systemName: "cart.fill")
+                                Image(systemName: "cart")
                             }
                         } else {
                             withAnimation {
-                                Image(systemName: "cart")
+                                Image(systemName: "cart.fill")
                             }
                         }
                     }

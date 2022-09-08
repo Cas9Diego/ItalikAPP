@@ -102,8 +102,8 @@ class ContentViewViewModel: ObservableObject {
     
     func userSearch () {
         
-        if modelsArray.contains(userInput) || modelsArray.contains(userInput.uppercased()) {
-            
+        if modelsArray.contains(userInput)  {
+
             if let currentCategory = motorcyclesList[userInput] {
             
             for i in 0..<currentCategory.count {
@@ -114,31 +114,38 @@ class ContentViewViewModel: ObservableObject {
             } else { return }
             
             
-        } //AQUI VIENE MAS
+        } else if modelsArray.contains(userInput.uppercased()) {
+            print(userInput.uppercased(), "Uppercased")
+            if let currentCategory = motorcyclesList[userInput.uppercased()] {
+            
+            for i in 0..<currentCategory.count {
+                
+                searchResults.append(currentCategory[i].modelo)
+            }
+                
+            } else { return }
+            
+            
+        }//AQUI VIENE MAS
         else if motorcycleModelCodes.contains(userInput) {
             
             searchResults.append(userInput)
             
+        } else {
+            
         }
-//        else {
-//            
-//            for i in 0..<motorcycleModelsArray.count {
-//                
-//
-//                
-//            }
-//            
-//        }
         
     }
     
     func saveData (modelCode: String) {
         objectsInCart.append(modelCode)
         UserDefaults.standard.set(objectsInCart, forKey: "savedData")
+        print(objectsInCart, "Objects")
     }
     
     func saveChanges () {
         UserDefaults.standard.set(objectsInCart, forKey: "savedData")
+        print(objectsInCart, "Objects1")
     }
     
 }

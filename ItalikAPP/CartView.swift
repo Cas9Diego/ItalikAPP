@@ -10,6 +10,7 @@ import SwiftUI
 struct CartView: View {
     @StateObject var VModel: ContentViewViewModel
     var body: some View {
+        if VModel.objectsInCart.isEmpty == false {
         List {
             ForEach(VModel.objectsInCart, id: \.self) { model in
 
@@ -20,6 +21,16 @@ struct CartView: View {
             }
             }
             .onDelete(perform: delete)
+        }.listStyle(.plain)
+        } else {
+            
+            VStack {
+                Text("Tu carrito está vacio 😒")
+                    .font(.system(size: 40))
+                    .multilineTextAlignment(.center)
+                    .padding()
+            }
+            
         }
     }
     

@@ -10,7 +10,7 @@ import SwiftUI
 struct DetailsView: View {
     
     @State var motorcycleModel: String
-    @StateObject var VModel: ContentViewViewModel
+    @ObservedObject var VModel: ContentViewViewModel
     
     var body: some View {
         VStack {
@@ -102,8 +102,7 @@ struct DetailsView: View {
                 Button {
                     VModel.cartState = true
                     VModel.saveData(modelCode: self.motorcycleModel)
-                    print(VModel.objectsInCart, "Objects")
-                    
+
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 16)
@@ -123,13 +122,13 @@ struct DetailsView: View {
                     NavigationLink {
                         CartView(VModel: VModel)
                     } label: {
-                        if VModel.cartState {
+                        if VModel.objectsInCart.isEmpty {
                             withAnimation {
-                                Image(systemName: "cart.fill")
+                                Image(systemName: "cart")
                             }
                         } else {
                             withAnimation {
-                                Image(systemName: "cart")
+                                Image(systemName: "cart.fill")
                             }
                         }
                     }
