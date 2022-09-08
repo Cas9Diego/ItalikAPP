@@ -7,7 +7,6 @@
 
 import Foundation
 
-// MARK: - Welcome
 struct MotorcyclesModel: Codable {
     let modelos: [String: [Modelo]]
 
@@ -16,7 +15,7 @@ struct MotorcyclesModel: Codable {
     }
 }
 
-// MARK: - Modelo
+
 struct Modelo: Codable {
     let modelo: String
     let coloresDisponibles: [ColoresDisponible]
@@ -26,6 +25,7 @@ struct Modelo: Codable {
     let capacidadDeCombustible: Double
     let descripcion: String
 }
+
 
 enum ColoresDisponible: String, Codable {
     case amarillo = "Amarillo"
