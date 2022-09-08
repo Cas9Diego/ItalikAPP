@@ -1,135 +1,135 @@
 {"Modelos": {
 "TRABAJO": [
 
-{"modelo":"AT110", "coloresDisponibles": ["Azul", "Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 107, "velocidadMaxima": 77, "capacidadDeCombustible": 14},
+{"modelo":"AT110", "coloresDisponibles": ["Azul", "Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 107, "velocidadMaxima": 77, "capacidadDeCombustible": 14, "descripcion": "Práctico diseño hecho para completar largas jornadas con un bajo consumo de combustible."},
 
-{"modelo":"AT110LT", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 107 , "velocidadMaxima": 73, "capacidadDeCombustible": 14},
+{"modelo":"AT110LT", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 107 , "velocidadMaxima": 73, "capacidadDeCombustible": 14, "descripcion": "Una moto muy accesible, rendidora y fácil de manejar, con sus aditamentos de carga hace tus recorridos más sencillos."},
 
-{"modelo":"FT 150 G", "coloresDisponibles": ["Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149 , "velocidadMaxima": 90, "capacidadDeCombustible": 14 },
+{"modelo":"FT 150 G", "coloresDisponibles": ["Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149 , "velocidadMaxima": 90, "capacidadDeCombustible": 14, "descripcion": "La moto de trabajo ideal para tus actividades diarias gracias a su potencia, alto rendimiento y capacidad de carga." },
 
-{"modelo":"125FL", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 125 , "velocidadMaxima": 85, "capacidadDeCombustible": 14}
+{"modelo":"125FL", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 125 , "velocidadMaxima": 85, "capacidadDeCombustible": 14, "descripcion": "Ideal para largas jornadas y con alto rendimiento de combustible."}
 
 
 ],
 "MOTONETA": [
 
-{"modelo":"D125", "coloresDisponibles": ["Blanco", "Azul"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 124.6 , "velocidadMaxima": 70 , "capacidadDeCombustible": 4.5 },
+{"modelo":"D125", "coloresDisponibles": ["Blanco", "Azul"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 124.6 , "velocidadMaxima": 70 , "capacidadDeCombustible": 4.5 , "descripcion": "Con esta motoneta ligera y fácil de conducir tus días no serán aburridos gracias a su practicidad y diseño divertido."},
 
-{"modelo":"DS150", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149.6, "velocidadMaxima": 80, "capacidadDeCombustible": 6 },
+{"modelo":"DS150", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149.6, "velocidadMaxima": 80, "capacidadDeCombustible": 6, "descripcion": "Avanza de una forma sencilla, esta motoneta te acompañará en todas tus actividades, es muy cómoda y fácil de conducir." },
 
-{"modelo":"X 150", "coloresDisponibles": ["Amarillo", "Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149.6 , "velocidadMaxima": 80, "capacidadDeCombustible": 6 },
+{"modelo":"X 150", "coloresDisponibles": ["Amarillo", "Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149.6 , "velocidadMaxima": 80, "capacidadDeCombustible": 6 , "descripcion": "Dale un toque especial a tus actividades del día, prueba su funcionalidad y experimenta la mejor manera de moverte."},
 
-{"modelo":"X 150 G", "coloresDisponibles": ["Blanco", "Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149.6, "velocidadMaxima": 80, "capacidadDeCombustible": 6 }
+{"modelo":"X 150 G", "coloresDisponibles": ["Blanco", "Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 149.6, "velocidadMaxima": 80, "capacidadDeCombustible": 6 , "descripcion": "Haz de tus días algo más divertido a bordo de esta moto fácil de manejar, es ideal para llegar a tu destino."}
 
 
 ],
 "LINEA_Z": [
 
-{"modelo":"250 SZ", "coloresDisponibles": ["Amarillo"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 223 , "velocidadMaxima": 120, "capacidadDeCombustible": 12 },
+{"modelo":"250 SZ", "coloresDisponibles": ["Amarillo"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 223 , "velocidadMaxima": 120, "capacidadDeCombustible": 12 , "descripcion": "En cada latido vives tu pasión, eliges tu camino, eres dueño de tu tiempo, eres creador de tu estilo, eres Piloto Z"},
 
-{"modelo":"150 Z", "coloresDisponibles": ["Negro", "Amarillo"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 150.06 , "velocidadMaxima": 90, "capacidadDeCombustible": 17 },
+{"modelo":"150 Z", "coloresDisponibles": ["Negro", "Amarillo"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 150.06 , "velocidadMaxima": 90, "capacidadDeCombustible": 17 , "descripcion": "Ligera, de fácil conducción y con un diseño inconfundible. Súbete a la emoción de rodar como un #PilotoZ."},
 
-{"modelo":"200Z", "coloresDisponibles": ["Rojo","Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 196, "velocidadMaxima": 110, "capacidadDeCombustible": 17 },
+{"modelo":"200Z", "coloresDisponibles": ["Rojo","Negro"], "tipoDeMotor": "Cuatro tiempos, monocilindro", "cilindrada": 196, "velocidadMaxima": 110, "capacidadDeCombustible": 17 , "descripcion": "El estilo de la Línea Z en un diseño desafiante que te hará vivir el camino con más emoción, conviértete en un #PilotoZ."},
 
-{"modelo":"250 Z", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico OHC", "cilindrada": 196, "velocidadMaxima": 110, "capacidadDeCombustible": 17 }
+{"modelo":"250 Z", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico OHC", "cilindrada": 196, "velocidadMaxima": 110, "capacidadDeCombustible": 17 , "descripcion": "Lleva tu estilo al máximo nivel, aumenta tu pasión en el camino, vive la emoción de ser un #PilotoZ"}
 
 
 ],
 "DEPORTIVA": [
 
-{"modelo":"RT200", "coloresDisponibles": ["Negro", "Gris"], "tipoDeMotor": "4 Tiempos, monocilindrico", "cilindrada": 200 , "velocidadMaxima": 116, "capacidadDeCombustible": 16},
+{"modelo":"RT200", "coloresDisponibles": ["Negro", "Gris"], "tipoDeMotor": "4 Tiempos, monocilindrico", "cilindrada": 200 , "velocidadMaxima": 116, "capacidadDeCombustible": 16, "descripcion": "Con su diseño de carenado completo le darás ese toque deportivo que te inspira a todos tus trayectos."},
 
-{"modelo":"RT 250", "coloresDisponibles": ["Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico OHC", "cilindrada": 250 , "velocidadMaxima": 122, "capacidadDeCombustible": 16}
+{"modelo":"RT 250", "coloresDisponibles": ["Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico OHC", "cilindrada": 250 , "velocidadMaxima": 122, "capacidadDeCombustible": 16, "descripcion": "Su deportividad permite un buen manejo tanto en calle como en circuito gracias a la comodidad y control de su suspensión"}
 
 
 ],
 
 "DOBLE_PROPOSITO": [
 
-{"modelo":"DM 150", "coloresDisponibles": ["Gris", "Azul"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149 , "velocidadMaxima": 90, "capacidadDeCombustible": 11},
+{"modelo":"DM 150", "coloresDisponibles": ["Gris", "Azul"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149 , "velocidadMaxima": 90, "capacidadDeCombustible": 11, "descripcion": "Si no tienes límites en tus caminos, disfrutarás del asfalto y terracería con esta versátil motocicleta."},
 
-{"modelo":"DM 200", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 198, "velocidadMaxima": 110, "capacidadDeCombustible": 11},
+{"modelo":"DM 200", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 198, "velocidadMaxima": 110, "capacidadDeCombustible": 11, "descripcion": "No importa qué tipo de camino elijas recorrer, esta moto tiene lo necesario para avanzar por cualquier terreno."},
 
-{"modelo":"DM250", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 100, "capacidadDeCombustible": 11},
+{"modelo":"DM250", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 100, "capacidadDeCombustible": 11, "descripcion": "Sólo elige el camino, asfalto o terracería; la DM250 brinda las potencia para divertirte y disfrutar del trayecto."},
 
-{"modelo":"DM250X", "coloresDisponibles": ["Negro", "Blanco"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 100, "capacidadDeCombustible": 11}
+{"modelo":"DM250X", "coloresDisponibles": ["Negro", "Blanco"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 100, "capacidadDeCombustible": 11, "descripcion": "Disfruta el camino que tú quieras, la DM250 X tiene la potencia y equipamiento para divertirte en cualquier camino."}
 
 
 ],
 "CUATRIMOTO": [
 
-{"modelo":"ATV150", "coloresDisponibles": ["Negro", "Verde"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149.6, "velocidadMaxima": 45, "capacidadDeCombustible": 7.5},
+{"modelo":"ATV150", "coloresDisponibles": ["Negro", "Verde"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149.6, "velocidadMaxima": 45, "capacidadDeCombustible": 7.5, "descripcion": "Gracias a su fácil conducción, disfrutarás cualquier camino con la emoción de rodar también en cuatro ruedas."},
 
-{"modelo":"ATV 180", "coloresDisponibles": ["Negro", "Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 177.3, "velocidadMaxima": 65, "capacidadDeCombustible": 7.5},
+{"modelo":"ATV 180", "coloresDisponibles": ["Negro", "Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 177.3, "velocidadMaxima": 65, "capacidadDeCombustible": 7.5, "descripcion": "Superarás cualquier obstáculo, y gracias a su diseño deportivo destacarás en cualquier terreno que decidas explorar."},
 
-{"modelo":"ATV200", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 200, "velocidadMaxima": 65, "capacidadDeCombustible": 7.5},
+{"modelo":"ATV200", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 200, "velocidadMaxima": 65, "capacidadDeCombustible": 7.5, "descripcion": "Diviértete al aire libre y avanza por cualquier camino con la versatilidad de esta cuatrimoto todoterreno."},
 
-{"modelo":"ATV 250", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 229.6, "velocidadMaxima": 80, "capacidadDeCombustible": 12}
+{"modelo":"ATV 250", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 229.6, "velocidadMaxima": 80, "capacidadDeCombustible": 12, "descripcion": "Escoge el camino que tú decidas y supera cualquier obstáculo con su potencia que te permite siempre ir más allá."}
 
 
 ],
 "CHOPPER": [
 
-{"modelo":"RC125", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 124, "velocidadMaxima": 95, "capacidadDeCombustible": 9.5},
+{"modelo":"RC125", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 124, "velocidadMaxima": 95, "capacidadDeCombustible": 9.5, "descripcion": "Declara tu estilo clásico y comienza a distinguirte en el camino."},
 
-{"modelo":"RC150", "coloresDisponibles": ["Azul", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149, "velocidadMaxima": 100, "capacidadDeCombustible": 15.5},
+{"modelo":"RC150", "coloresDisponibles": ["Azul", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149, "velocidadMaxima": 100, "capacidadDeCombustible": 15.5, "descripcion": "Una clásica chopper que despierta pasiones con su llamativo diseño, su postura la hace ideal para recorridos más largos."},
 
-{"modelo":"RC200", "coloresDisponibles": ["Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 200, "velocidadMaxima": 112, "capacidadDeCombustible": 16},
+{"modelo":"RC200", "coloresDisponibles": ["Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 200, "velocidadMaxima": 112, "capacidadDeCombustible": 16, "descripcion": "Dale más poder a tus rutas y disfruta de su comodidad para rodar por horas, con la RC200 comienza el camino."},
 
-{"modelo":"TC 250", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilindrico", "cilindrada": 250, "velocidadMaxima": 118, "capacidadDeCombustible": 15}
+{"modelo":"TC 250", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilindrico", "cilindrada": 250, "velocidadMaxima": 118, "capacidadDeCombustible": 15, "descripcion": "Su comodidad y cuerpo robusto hacen que cualquier trayecto se convierta en una emblemática historia; el camino es tuyo."}
 
 
 ],
 "ADVENTURE": [
 
-{"modelo":"V200", "coloresDisponibles": ["Blanco", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico OHC ", "cilindrada": 200, "velocidadMaxima": 110, "capacidadDeCombustible": 14},
+{"modelo":"V200", "coloresDisponibles": ["Blanco", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico OHC ", "cilindrada": 200, "velocidadMaxima": 110, "capacidadDeCombustible": 14, "descripcion": "na motocicleta ideal para rodar, ya sea asfalto, terracería o carretera, vas a disfrutar de tu ruta al máximo."},
 
-{"modelo":"VX250", "coloresDisponibles": ["Negro", "Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 valvulas", "cilindrada": 249.6, "velocidadMaxima": 137, "capacidadDeCombustible": 15}
+{"modelo":"VX250", "coloresDisponibles": ["Negro", "Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 valvulas", "cilindrada": 249.6, "velocidadMaxima": 137, "capacidadDeCombustible": 15, "descripcion": "deal para esos largos trayectos, sólo elige tu próxima aventura, traza tu ruta y descubre la libertad sin fronteras."}
 
 
 ],
 "VORT_X": [
 
-{"modelo":"VORT-X250", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, Monocilindrico OHC", "cilindrada": 250, "velocidadMaxima": 135, "capacidadDeCombustible": 15},
+{"modelo":"VORT-X250", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, Monocilindrico OHC", "cilindrada": 250, "velocidadMaxima": 135, "capacidadDeCombustible": 15, "descripcion": "Libera tu adrenalina en calle, carretera o en la pista."},
 
-{"modelo":"VORT-X300", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 válvulas DOHC", "cilindrada": 292, "velocidadMaxima": 135, "capacidadDeCombustible": 15},
+{"modelo":"VORT-X300", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 válvulas DOHC", "cilindrada": 292, "velocidadMaxima": 135, "capacidadDeCombustible": 15, "descripcion": "Únete a la nueva era del motociclismo, eleva tu adrenalina y vive al máximo la deportividad a bordo de esta naked."},
 
-{"modelo":"VORT-X300R", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 válvulas DOHC", "cilindrada": 292, "velocidadMaxima": 140, "capacidadDeCombustible": 15}
+{"modelo":"VORT-X300R", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 válvulas DOHC", "cilindrada": 292, "velocidadMaxima": 140, "capacidadDeCombustible": 15, "descripcion": "Alto desempeño y deportividad en un diseño de carenado completo que elevará tu adrenalina en el camino o circuito."}
 
 
 ],
 "CAFE_RACER": [
 
-{"modelo":"BLACKBIRD", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 135, "capacidadDeCombustible": 14},
+{"modelo":"BLACKBIRD", "coloresDisponibles": ["Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 135, "capacidadDeCombustible": 14, "descripcion": "Resalta al máximo tu estilo a bordo de su diseño Neo Cafe y conviértete en una leyenda del camino."},
 
-{"modelo":"SPTFIRE", "coloresDisponibles": ["Azul", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 200, "velocidadMaxima": 107, "capacidadDeCombustible": 16.2},
+{"modelo":"SPTFIRE", "coloresDisponibles": ["Azul", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 200, "velocidadMaxima": 107, "capacidadDeCombustible": 16.2, "descripcion": "Su diseño clásico te dará gran distinción en el camino para convertirte en una leyenda"},
 
-{"modelo":"SPTFIRE250", "coloresDisponibles": ["Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 110, "capacidadDeCombustible": 16.5}
+{"modelo":"SPTFIRE250", "coloresDisponibles": ["Gris"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 250, "velocidadMaxima": 110, "capacidadDeCombustible": 16.5, "descripcion": "Una moto de estilo clásico para convertirte en leyenda y dejar huella en el camino."}
 
 
 ],
 "ELECTRICA": [
 
-{"modelo":"VOLTIUM BIKE POCKET", "coloresDisponibles": ["Negro", "Verde"], "tipoDeMotor": "Motor Trasero de 36V250W", "cilindrada": 0 , "velocidadMaxima": 25, "capacidadDeCombustible": 0},
+{"modelo":"VOLTIUM BIKE POCKET", "coloresDisponibles": ["Negro", "Verde"], "tipoDeMotor": "Motor Trasero de 36V250W", "cilindrada": 0 , "velocidadMaxima": 25, "capacidadDeCombustible": 0, "descripcion": "Únete a la nueva era de movilidad, trasládate sin esfuerzo o ejercítate mientras avanzas, tú decides cómo disfrutar tu camino."},
 
-{"modelo":"VOLTIUM CITY", "coloresDisponibles": ["Blanco", "Azul"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 52, "capacidadDeCombustible": 0},
+{"modelo":"VOLTIUM CITY", "coloresDisponibles": ["Blanco", "Azul"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 52, "capacidadDeCombustible": 0, "descripcion": "Una motoneta 100% eléctrica que te hará moverte de forma eficiente con tecnología avanzada libre de emisiones."},
 
-{"modelo":"VOLTIUM GRAVITY", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 65, "capacidadDeCombustible": 0},
+{"modelo":"VOLTIUM GRAVITY", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 65, "capacidadDeCombustible": 0, "descripcion": "Vive la emoción de la nueva movilidad con esta moto automática que cuenta con tecnología libre de emisiones."},
 
-{"modelo":"VOLTIUM GRAVITY CITIO", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 65, "capacidadDeCombustible": 0}
+{"modelo":"VOLTIUM GRAVITY CITIO", "coloresDisponibles": ["Blanco", "Verde"], "tipoDeMotor": "Eléctrico", "cilindrada": 0, "velocidadMaxima": 65, "capacidadDeCombustible": 0, "descripcion": "La emoción de la nueva movilidad con la practicidad del servicio de baterías intercambiables, Citio. Consulta cobertura."}
 
 
 ],
 "CROSSOVER": [
 
-{"modelo":"BIT150", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149.6, "velocidadMaxima": 90, "capacidadDeCombustible": 3.7}
+{"modelo":"BIT150", "coloresDisponibles": ["Rojo", "Negro"], "tipoDeMotor": "4 Tiempos, monocilíndrico", "cilindrada": 149.6, "velocidadMaxima": 90, "capacidadDeCombustible": 3.7, "descripcion": "Una moto divertida que fusiona los beneficios de una motoneta con diseño urbano tipo naked."}
 
 
 ],
 
 "TRIMOTO": [
 
-{"modelo":"TITAN", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 válvulas DOHC", "cilindrada": 229.2, "velocidadMaxima": 60, "capacidadDeCombustible": 15}
+{"modelo":"TITAN", "coloresDisponibles": ["Blanco"], "tipoDeMotor": "4 Tiempos, monocilíndrico 4 válvulas DOHC", "cilindrada": 229.2, "velocidadMaxima": 60, "capacidadDeCombustible": 15, "descripcion": "Avanza con resistencia en una moto de tres ruedas, lleva contigo lo que necesitas para tu negocio."}
 
 ]
 }

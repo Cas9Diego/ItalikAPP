@@ -24,6 +24,7 @@ struct Modelo: Codable {
     let cilindrada: Double
     let velocidadMaxima: Int
     let capacidadDeCombustible: Double
+    let descripcion: String
 }
 
 enum ColoresDisponible: String, Codable {
