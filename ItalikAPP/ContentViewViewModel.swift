@@ -18,11 +18,25 @@ class ContentViewViewModel: ObservableObject {
     @Published var cilindrada: Double = 0
     @Published var maxVel: Double = 0
     @Published var combustible: Double = 0
+    
+    
     @Published var userInput: String = ""
     @Published var showingTableOfResults: Bool = false
     @Published var searchResults: [String] = []
     @Published var descripcionMoto: String = ""
     @Published var cartState: Bool = false
+    
+    
+    @Published var nombre: String = ""
+    @Published var apellidoPat: String = ""
+    @Published var apellidoMat: String = ""
+    @Published var calle: String = ""
+    @Published var numeroExteInt: String = ""
+    @Published var ciudad: String = ""
+    @Published var numeroDeTarjeta: String = ""
+    @Published var fechaDeExpiracion: String = ""
+    @Published var condigoDeSeguridad: String = ""
+    
     
     let modelsArray = ["TRABAJO", "MOTONETA", "LINEA_Z", "DEPORTIVA", "DOBLE_PROPOSITO", "CUATRIMOTO", "CHOPPER", "ADVENTURE", "VORT_X", "CAFE_RACER", "ELECTRICA", "CROSSOVER", "TRIMOTO"]
     

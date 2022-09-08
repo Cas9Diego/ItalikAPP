@@ -88,7 +88,7 @@ struct DetailsView: View {
             VStack {
                 
                 NavigationLink {
-                    BuyProductView()
+                    BuyProductView(motorcycleModel: motorcycleModel, VModel: VModel)
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 16)
