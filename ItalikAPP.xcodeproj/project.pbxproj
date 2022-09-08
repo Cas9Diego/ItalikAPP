@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C1D399728CA6D46005A0471 /* ConfettiSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 6C1D399628CA6D46005A0471 /* ConfettiSwiftUI */; };
+		6C28EC1D28CA9D9200D90D20 /* CartItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C28EC1C28CA9D9200D90D20 /* CartItemsView.swift */; };
 		6CB4BC1928C96F6600F6334F /* ItalikAPPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4BC1828C96F6600F6334F /* ItalikAPPApp.swift */; };
 		6CB4BC1B28C96F6600F6334F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB4BC1A28C96F6600F6334F /* ContentView.swift */; };
 		6CB4BC1D28C96F6800F6334F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6CB4BC1C28C96F6800F6334F /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6C28EC1C28CA9D9200D90D20 /* CartItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartItemsView.swift; sourceTree = "<group>"; };
 		6CB4BC1528C96F6600F6334F /* ItalikAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ItalikAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CB4BC1828C96F6600F6334F /* ItalikAPPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItalikAPPApp.swift; sourceTree = "<group>"; };
 		6CB4BC1A28C96F6600F6334F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				6CB4BC2A28C9ABBB00F6334F /* ContentViewViewModel.swift */,
 				6CB4BC1A28C96F6600F6334F /* ContentView.swift */,
 				6CB4BC2E28C9DE3E00F6334F /* DetailsView.swift */,
+				6C28EC1C28CA9D9200D90D20 /* CartItemsView.swift */,
 				6CB4BC3228CA292100F6334F /* BuyProductView.swift */,
 				6CB4BC3428CA292D00F6334F /* CartView.swift */,
 				6CB4BC3028CA1A0200F6334F /* Color-Extension.swift */,
@@ -170,6 +173,7 @@
 				6CB4BC3328CA292100F6334F /* BuyProductView.swift in Sources */,
 				6CB4BC1B28C96F6600F6334F /* ContentView.swift in Sources */,
 				6CB4BC3128CA1A0200F6334F /* Color-Extension.swift in Sources */,
+				6C28EC1D28CA9D9200D90D20 /* CartItemsView.swift in Sources */,
 				6CB4BC2F28C9DE3E00F6334F /* DetailsView.swift in Sources */,
 				6CB4BC2928C9A53700F6334F /* MotorcyclesModel.swift in Sources */,
 				6CB4BC1928C96F6600F6334F /* ItalikAPPApp.swift in Sources */,

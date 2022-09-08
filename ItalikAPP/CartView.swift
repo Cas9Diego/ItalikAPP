@@ -15,7 +15,7 @@ struct CartView: View {
             ForEach(VModel.objectsInCart, id: \.self) { model in
 
             NavigationLink {
-                DetailsView(motorcycleModel: model, VModel: VModel)
+                CartItemsView(motorcycleModel: model, VModel: VModel)
             } label: {
                 Text("Motocicleta modelo "+model)
             }

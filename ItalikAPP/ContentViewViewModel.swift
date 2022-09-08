@@ -115,7 +115,6 @@ class ContentViewViewModel: ObservableObject {
             
             
         } else if modelsArray.contains(userInput.uppercased()) {
-            print(userInput.uppercased(), "Uppercased")
             if let currentCategory = motorcyclesList[userInput.uppercased()] {
             
             for i in 0..<currentCategory.count {
@@ -140,12 +139,10 @@ class ContentViewViewModel: ObservableObject {
     func saveData (modelCode: String) {
         objectsInCart.append(modelCode)
         UserDefaults.standard.set(objectsInCart, forKey: "savedData")
-        print(objectsInCart, "Objects")
     }
     
     func saveChanges () {
         UserDefaults.standard.set(objectsInCart, forKey: "savedData")
-        print(objectsInCart, "Objects1")
     }
     
 }
