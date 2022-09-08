@@ -22,6 +22,7 @@ class ContentViewViewModel: ObservableObject {
     @Published var showingTableOfResults: Bool = false
     @Published var searchResults: [String] = []
     @Published var descripcionMoto: String = ""
+    @Published var cartState: Bool = false
     
     let modelsArray = ["TRABAJO", "MOTONETA", "LINEA_Z", "DEPORTIVA", "DOBLE_PROPOSITO", "CUATRIMOTO", "CHOPPER", "ADVENTURE", "VORT_X", "CAFE_RACER", "ELECTRICA", "CROSSOVER", "TRIMOTO"]
     

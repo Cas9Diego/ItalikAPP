@@ -24,6 +24,8 @@ struct DetailsView: View {
             VStack {
                 
                 Text(VModel.descripcionMoto)
+                    .font(.headline).bold().italic()
+                    .padding()
                 
                 Spacer()
                 
@@ -34,8 +36,45 @@ struct DetailsView: View {
                 
                 HStack {
                     
+                    Text("Colores disponibles:")
+                        .padding()
+                    
                     ForEach(0..<VModel.coloresDisponibles.count, id: \.self) { index in
-                        Text(VModel.coloresDisponibles[index].rawValue)
+                        if VModel.coloresDisponibles[index].rawValue == "Amarillo" {
+                            Circle()
+                                .fill(Color.yellow)
+                                .frame(width: 20, height: 20)
+                        } else if VModel.coloresDisponibles[index].rawValue == "Azul" {
+                            Circle()
+                                .fill(Color.blue)
+                                .frame(width: 20, height: 20)
+                        } else if VModel.coloresDisponibles[index].rawValue == "Blanco" {
+                            Circle()
+                                .fill(Color.white)
+                                .frame(width: 20, height: 20)
+                            Circle()
+                                .strokeBorder(.black, lineWidth: 0.5)
+                                .frame(width: 20, height: 20)
+                        } else if VModel.coloresDisponibles[index].rawValue == "Gris" {
+                            Circle()
+                                .fill(Color.gray)
+                                .frame(width: 20, height: 20)
+                        } else if VModel.coloresDisponibles[index].rawValue == "Negro" {
+                            Circle()
+                                .fill(Color.black)
+                                .frame(width: 20, height: 20)
+                        } else if VModel.coloresDisponibles[index].rawValue == "Rojo" {
+                            Circle()
+                                .fill(Color.red)
+                                .frame(width: 20, height: 20)
+                        } else if VModel.coloresDisponibles[index].rawValue == "Verde" {
+                            Circle()
+                                .fill(Color.green)
+                                .frame(width: 20, height: 20)
+                        } else {
+                            
+                        }
+
                     }
                     
                 }
@@ -48,8 +87,8 @@ struct DetailsView: View {
             
             VStack {
                 
-                Button {
-                    
+                NavigationLink {
+                    BuyProductView()
                 } label: {
                     ZStack {
                         RoundedRectangle(cornerRadius: 16)
@@ -61,6 +100,8 @@ struct DetailsView: View {
                 
                 
                 Button {
+                    
+                    VModel.cartState = true
                     
                 } label: {
                     ZStack {
@@ -78,10 +119,18 @@ struct DetailsView: View {
             
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
-                    Button {
-                        
+                    NavigationLink {
+                        CartView()
                     } label: {
+                        if VModel.cartState {
+                            withAnimation {
+                        Image(systemName: "cart.fill")
+                            }
+                        } else {
+                            withAnimation {
                         Image(systemName: "cart")
+                            }
+                        }
                     }
                 }
             }
