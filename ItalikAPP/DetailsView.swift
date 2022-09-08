@@ -74,7 +74,7 @@ struct DetailsView: View {
                         } else {
                             
                         }
-
+                        
                     }
                     
                 }
@@ -100,8 +100,9 @@ struct DetailsView: View {
                 
                 
                 Button {
-                    
                     VModel.cartState = true
+                    VModel.saveData(modelCode: self.motorcycleModel)
+                    print(VModel.objectsInCart, "Objects")
                     
                 } label: {
                     ZStack {
@@ -120,15 +121,15 @@ struct DetailsView: View {
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink {
-                        CartView()
+                        CartView(VModel: VModel)
                     } label: {
                         if VModel.cartState {
                             withAnimation {
-                        Image(systemName: "cart.fill")
+                                Image(systemName: "cart.fill")
                             }
                         } else {
                             withAnimation {
-                        Image(systemName: "cart")
+                                Image(systemName: "cart")
                             }
                         }
                     }

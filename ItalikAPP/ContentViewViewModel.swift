@@ -37,6 +37,14 @@ class ContentViewViewModel: ObservableObject {
     @Published var fechaDeExpiracion: String = ""
     @Published var condigoDeSeguridad: String = ""
     
+    @Published var objectsInCart = [String]()
+
+    init() {
+        if let savedData = UserDefaults.standard.stringArray(forKey: "savedData"){
+            objectsInCart = savedData
+        }
+    }
+    
     
     let modelsArray = ["TRABAJO", "MOTONETA", "LINEA_Z", "DEPORTIVA", "DOBLE_PROPOSITO", "CUATRIMOTO", "CHOPPER", "ADVENTURE", "VORT_X", "CAFE_RACER", "ELECTRICA", "CROSSOVER", "TRIMOTO"]
     
@@ -111,16 +119,26 @@ class ContentViewViewModel: ObservableObject {
             
             searchResults.append(userInput)
             
-        } else {
-            
-            for i in 0..<motorcycleModelsArray.count {
-                
-
-                
-            }
-            
         }
+//        else {
+//            
+//            for i in 0..<motorcycleModelsArray.count {
+//                
+//
+//                
+//            }
+//            
+//        }
         
+    }
+    
+    func saveData (modelCode: String) {
+        objectsInCart.append(modelCode)
+        UserDefaults.standard.set(objectsInCart, forKey: "savedData")
+    }
+    
+    func saveChanges () {
+        UserDefaults.standard.set(objectsInCart, forKey: "savedData")
     }
     
 }

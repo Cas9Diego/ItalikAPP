@@ -103,6 +103,23 @@ struct ContentView: View {
                     
                 }
             }
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    NavigationLink {
+                        CartView(VModel: VModel)
+                    } label: {
+                        if VModel.cartState {
+                            withAnimation {
+                                Image(systemName: "cart.fill")
+                            }
+                        } else {
+                            withAnimation {
+                                Image(systemName: "cart")
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }

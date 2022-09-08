@@ -8,13 +8,29 @@
 import SwiftUI
 
 struct CartView: View {
+    @StateObject var VModel: ContentViewViewModel
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(VModel.objectsInCart, id: \.self) { model in
+
+            NavigationLink {
+                DetailsView(motorcycleModel: model, VModel: VModel)
+            } label: {
+                Text("Motocicleta modelo "+model)
+            }
+            }
+            .onDelete(perform: delete)
+        }
+    }
+    
+    func delete(at offsets: IndexSet) {
+        VModel.objectsInCart.remove(atOffsets: offsets)
+        VModel.saveChanges()
     }
 }
 
 struct CartView_Previews: PreviewProvider {
     static var previews: some View {
-        CartView()
+        CartView(VModel: ContentViewViewModel())
     }
 }
