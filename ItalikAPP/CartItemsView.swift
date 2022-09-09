@@ -98,22 +98,6 @@ struct CartItemsView: View {
                     }
                 }  .tint(Color(0xF9D71C))
                 
-                
-                Button {
-                    VModel.cartState = true
-                    VModel.saveData(modelCode: self.motorcycleModel)
-
-                } label: {
-                    ZStack {
-                        RoundedRectangle(cornerRadius: 16)
-                            .frame(width: UIScreen.main.bounds.width/1.3, height: 50)
-                        Text ("Añadir al carrito")
-                            .foregroundColor(.black)
-                    }
-                }     .tint(Color(0xF9D71C))
-                
-                
-                
             }
             
             
