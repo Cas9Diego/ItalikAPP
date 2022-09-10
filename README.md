@@ -8,7 +8,7 @@ La pantalla inicial es un menú con todas las motocicletas disponibles para la v
 observar detalles adicionales del modelo seleccionado. Además, se puede hacer click en el botón "Comprar ya" para hacer el proceso de compra, o bien,
 se puede añadir el articulo al carrito de compras, al cual se puede acceder a través del botón derecho en la barra de navegación. 
 
-En el buscador de la App, se pueden buscar, ya sea los productos por modelo, o por categoria, las categorías posibles son: TRABAJO, MOTONETA, LINEA Z, DEPORTIVA, DOBLE_PROPOSITO, CUATRIMOTO, CHOPPER, ADVENTURE, VORT_X, CAFE_RACER, ELECTRICA, CROSSOVER, TRIMOTO. 
+En el buscador de la App, se pueden buscar, ya sea los productos por modelo, o por categoria, las categorías posibles son: TRABAJO, MOTONETA, LINEA Z, DEPORTIVA, DOBLE_PROPOSITO, CUATRIMOTO, CHOPPER, ADVENTURE, VORT_X, CAFE_RACER, ELECTRICA, CROSSOVER O TRIMOTO. 
 
 A continuación se observa la pantalla inicial de la App.
 
